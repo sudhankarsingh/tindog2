@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#title{ color: azure;
+    background-color: #ff4c68;
+    
+}
+.nav-link{
+    color: azure;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    color: azure;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0px 18px; 
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    color: azure;
+    font-weight: bold;
+}
+
+.iphone6{
+    width: 60%;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.download-button{
+    margin: 5% 5% 5% 0;
+}
+.download-button2{
+    margin: 5% 7% 5% 0;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+   
+}
+i{  color: #ff4c68;
+    margin: 0 auto;
+}
+.fa-heart,.fa-bullseye,.fa-check-circle{
+    margin: 10px auto 10px;
+    color: #ef8172;
+    
+}
+.fa-heart:hover,.fa-bullseye:hover,.fa-check-circle:hover{
+    color: #ff4c68;
+}
+
+h3{
+    font-family: "montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: auto;
+}
+.featu{
+    color: #8f8f8f;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}   
+
+/* testimonialsection */
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+ }
+
+ .test-img{
+     width: 10%;
+     border-radius: 100%;
+     margin: 20px;
+ }
+ #press{
+     background-color: #ef8172;
+     text-align: center;
+     padding-bottom: 4%;
+ }
+ .press-img{
+     width: 15%;
+     margin: 20px 20px 50px;
+ }
+
+ #pricing{
+     text-align: center;
+     padding: 100px;
+ }
+ .pricing-col{
+     padding: 3% 2%;
+ }
+
+ @media (max-width:1228px){
+
+    #title{
+        text-align: center;
+    }
+    .iphone6{
+        transform: rotate(0);
+        position: static;
+    }
+ }
+
+ #cta{
+     background-color: #ff4c68;
+     text-align: center;
+     font-family: "montserrat-black";
+     padding: 7% 15%;
+ }
+
+ #footer{
+     margin-top: 4%;
+     text-align: center;
+
+ }
+ #ctah3{
+       color: #fff;
+       font-weight: bolder;
+       font-size: 3.5rem;
+       line-height: 1.5;
+       margin-bottom: 3%;
+       
+
+ }
+ 
+ #footer{
+     padding: 7% 15%;
+     text-align: center;
+ }
+ .foott{
+     margin:20px 10px;
+ }
+
+ .fa-phone-alt{
+     color: black;
+ }
